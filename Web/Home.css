@@ -1,0 +1,344 @@
+body {
+    width:100%;
+    height:auto;
+    margin:0;
+}
+
+.title{
+    float:left;
+}
+
+.title img{
+	width:100%;
+    height:auto;
+    
+}
+
+.search{
+    position:relative;
+    margin-top:20px;
+	padding-left: 9%;
+	box-sizing: border-box;
+}
+
+.searchBox{
+    border:1px solid black;
+    border-radius:20px;
+    width:240px;
+    height:40px;
+    float:left;
+    position:relative;
+    margin-top:10px;
+	margin-top: 20px;;
+}
+
+.searchBox input{
+    width:77%;
+	padding-bottom: 10px;
+    position:absolute;
+    z-index:2;
+    margin-top:10px;
+}
+
+input,input:focus{
+	outline: none;
+	border: 1px solid darkorange;
+}
+
+
+.searching{
+    width:25px;
+    height:auto;
+    position:absolute;
+    margin-left:-48px;
+    z-index:2;
+	margin-top: 6px;
+	top:20px;
+}
+
+.log{
+    padding-top:20px;
+    font-size:18px;
+    font-weight:500;
+    font-family:Segoe UI Symbol;
+	text-align: right;
+}
+
+.log a{
+    text-decoration:none;
+    color:black;
+	width: 130px;
+}
+.log img{
+    width:40px;
+    height:40px;
+}
+.log span{
+    padding-left:10px;
+}
+
+.nav{
+    margin-top:60px;
+    z-index:2;
+}
+.nav a{
+    text-decoration:none;
+    color:black;
+    font-family:'Segoe Print';
+    font-size:x-large;
+    font-weight:900;
+    z-index:100;
+}
+.nav #navName li{
+    list-style-type:none;
+    position:relative;
+    display:inline;
+    float:left;
+	text-align: center;
+}
+
+#navName{
+	margin-top: -10px;
+}
+
+.nav #dropdown1, #dropdown2, #dropdown3, #dropdown4, #dropdown5, #dropdown6{
+	height: 3px;
+    background-color:#B73915;
+	overflow:hidden ;
+	width: 80%;
+	transition:height 1s;
+	z-index: 3;
+	position: absolute;
+}
+
+.nav #dropdown1, #dropdown2, #dropdown3, #dropdown4, #dropdown5, #dropdown6 li{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	
+}
+
+#navName li ul{
+	padding: 0;
+}
+
+#navName li ul li{
+	width:100%;
+	margin-top: 8px;
+}
+
+.nav #navName li:hover #dropdown1{
+	height:100px;
+}
+
+.nav #navName li:hover #dropdown2{
+	height:100px;
+}
+
+.nav #navName li:hover #dropdown3{
+	height:100px;
+}
+
+
+#figure{
+    margin:0px;
+    border:0;
+    position:relative;
+    z-index:1;
+	width:100%;
+}
+
+
+
+#figurePicture img{
+    width:100%;
+    height:auto;
+    z-index:1;
+}
+
+
+#button{
+    position:absolute;
+    z-index:2;
+    top:600px;
+    left:650px;
+
+}
+
+#button span{
+    background-color:white;
+    opacity:0.8;
+    width:30px;
+    height:5px;
+    float:left;
+    display:inline;
+    margin-left:10px;
+    cursor:pointer;
+}
+
+#article{
+    background-color:#ffe6cb;
+    position:relative;
+    border:0px;
+    width:100%;
+    height:1600px;
+}
+
+
+
+.leftFirst{
+    padding-left:30px;
+    float:left;
+    margin-top:-100px;
+}
+.leftFirstLetter{
+   position:absolute;
+   top:350px;
+   left:230px;
+}
+
+.leftSecond{
+    padding-top:650px;
+    padding-left:30px;
+}
+.leftSecondLetter{
+   position:absolute;
+   top:1100px;
+   left:200px;
+}
+
+.leftFirst img, .leftSecond img {
+	width:100%;
+}
+
+#section1{
+    position:absolute;
+    top:50px;
+    left:80px;
+    z-index:2;
+    background-color:#ffdeb9;
+	height: 550px;
+	width: 90%;
+}
+
+#photoShow img{
+	margin-top: -5%;
+	height: 360px;
+	padding-left: 0;
+}
+#photoShow{
+	padding-left: 3%;
+	margin-right: 0;
+	margin-top: 5%;
+	overflow: hidden;
+}
+
+#title1 img{
+	padding-left: 37%;
+	padding-top: 5%;
+}
+
+#title2{
+	position: absolute;
+	left: 35%;
+	top: 890px;
+}
+
+#guide video{
+	position: absolute;
+	left:60%;
+	top:650px;
+}
+
+#guide img{
+	position: absolute;
+	left:5%;
+	top:980px;
+}
+
+#guide .intro1{
+	position: absolute;
+	top: 680px;
+	left: 10%;
+	width:30%;
+	height:200px;
+}
+
+#guide .intro2{
+	position: absolute;
+	top: 980px;
+	left: 60%;
+	width:30%;
+	height:200px;
+}
+
+#guide .intro1, .intro2 p{
+	margin-top: 60px;
+	text-align: center;
+	font-size:18px;
+	font-weight:500;
+	font-family:Segoe UI Symbol;
+	color: grey;
+}
+
+
+#section2{
+    height:auto;
+    z-index:1;
+    position:absolute;
+    top:50px;
+    left:70px;
+    right:60px;
+    background-color:#ffdeb9;
+    padding-bottom:100px;
+}
+
+
+
+#aside{
+    z-index:4;
+    width:100px;
+    position:fixed;
+    margin-left:1400px;
+    margin-top:500px;
+    display:none;
+
+}
+
+#aside img{
+    width:50px;
+    height:auto;
+    margin-top:15px;
+}
+
+#footer{
+    height:300px;
+    width:101%;
+    background-color:#e4863e;
+    opacity:0.9;
+    position:absolute;
+    top:2400px;
+}
+
+
+
+#footer .follow{
+    color:white;
+    font-size:20px;
+    margin-top:50px;
+    margin-left:150px;
+}
+
+#footer .share{
+    margin-left:250px;
+}
+#footer .share img{
+    height:50px;
+    width:50px;
+    margin-left:10px;
+}
+
+#footer .instruction{
+    color:white;
+    margin-left:900px;
+}
